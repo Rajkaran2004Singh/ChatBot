@@ -1,0 +1,30 @@
+# CORE LIBRARIES for Hugging Face (NLP, Vision, Multimodal)
+
+transformers
+datasets
+accelerate
+evaluate
+rouge-score
+
+# VISION AND GENERATIVE AI (BLIP & Stable Diffusion)
+
+diffusers
+peft             # Parameter-Efficient Fine-Tuning (for LoRA)
+bitsandbytes     # 8-bit quantization for memory efficiency
+xformers         # Memory-efficient attention (for faster training)
+Pillow           # Python Imaging Library (PIL)
+requests         # To download images from URLs in Conceptual Captions
+sentencepiece    # Required by T5 tokenizer
+
+
+# PDF & UTILITIES
+
+PyMuPDF==1.23.0  # Or latest version (imported as fitz, for PDF text extraction)
+numpy
+scipy
+
+# PYTORCH (Critical for Colab/GPU compatibility)
+
+torch
+torchvision
+torchaudio
